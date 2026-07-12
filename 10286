@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Funded</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Best Funded</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Challenges</a>
+        <a href="#">Pricing</a>
+        <a href="#">FAQ</a>
+        <a href="login.html">Login</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Best Funded</h1>
+    <p>Trade Smarter. Get Funded. Earn More.</p>
+    <a href="#" class="btn" id="startBtn">Start Challenge</a>
+</section>
+
+<section class="features">
+    <h2>Why Choose Best Funded?</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Fast Payouts</h3>
+            <p>Receive your profits quickly and securely.</p>
+        </div>
+
+        <div class="card">
+            <h3>Up to $200,000</h3>
+            <p>Trade with large funded accounts.</p>
+        </div>
+
+        <div class="card">
+            <h3>24/7 Support</h3>
+            <p>Our team is always available to help you.</p>
+        </div>
+    </div>
+</section>
+
+<section class="pricing">
+    <h2>Choose Your Challenge</h2>
+
+    <div class="pricing-cards">
+
+        <div class="price-card">
+            <h3>$10K</h3>
+            <p>Starting Fee: $59</p>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+
+        <div class="price-card">
+            <h3>$25K</h3>
+            <p>Starting Fee: $149</p>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+
+        <div class="price-card">
+            <h3>$50K</h3>
+            <p>Starting Fee: $299</p>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+
+        <div class="price-card">
+            <h3>$100K</h3>
+            <p>Starting Fee: $499</p>
+            <a href="#" class="btn">Buy Now</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="faq">
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <h3>How long does the evaluation take?</h3>
+        <p>You can complete the challenge at your own pace.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>What is the profit split?</h3>
+        <p>Traders can earn up to 90% profit split.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>When do I receive payouts?</h3>
+        <p>Payouts are processed quickly after approval.</p>
+    </div>
+
+</section>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,263 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#000;
+    color:#fff;
+}
+
+/* HEADER */
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+    background:#111;
+    position:sticky;
+    top:0;
+    flex-wrap:wrap;
+}
+
+.logo{
+    font-size:30px;
+    font-weight:bold;
+    color:gold;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:gold;
+}
+
+/* HERO */
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    color:gold;
+    font-size:72px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:28px;
+    margin-bottom:40px;
+}
+
+.btn{
+    display:inline-block;
+    background:gold;
+    color:black;
+    padding:20px 60px;
+    text-decoration:none;
+    font-size:28px;
+    font-weight:bold;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#ffd700;
+    transform:scale(1.05);
+}
+
+/* FEATURES */
+
+.features{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:60px 20px;
+}
+
+.feature{
+    width:280px;
+    background:#111;
+    border:1px solid #333;
+    border-radius:15px;
+    padding:30px;
+    text-align:center;
+    transition:.3s;
+}
+
+.feature:hover{
+    border-color:gold;
+    transform:translateY(-8px);
+}
+
+.feature h3{
+    color:gold;
+}
+
+/* PRICING */
+
+.pricing{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.pricing h2{
+    font-size:42px;
+    margin-bottom:40px;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+.card{
+    width:280px;
+    background:#111;
+    border:1px solid #333;
+    border-radius:15px;
+    padding:25px;
+    transition:.3s;
+}
+
+.card:hover{
+    border-color:gold;
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:gold;
+    font-size:35px;
+}
+
+.card p{
+    font-size:22px;
+}
+
+.card a{
+    display:inline-block;
+    margin-top:20px;
+    background:gold;
+    color:black;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    background:#111;
+    padding:30px;
+    margin-top:70px;
+}
+
+footer p{
+    margin:0;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+    text-align:center;
+}
+
+nav{
+    margin-top:15px;
+}
+
+.hero h1{
+    font-size:50px;
+}
+
+.hero p{
+    font-size:22px;
+}
+
+.btn{
+    font-size:22px;
+    padding:18px 35px;
+}
+
+.feature,
+.card{
+    width:90%;
+}
+
+.pricing h2{
+    font-size:34px;
+}
+
+}
+/* LOGIN PAGE */
+
+.login-box{
+    width:90%;
+    max-width:400px;
+    margin:100px auto;
+    background:#111;
+    padding:40px;
+    border-radius:15px;
+    text-align:center;
+    border:1px solid #333;
+}
+
+.login-box h1{
+    color:gold;
+    margin-bottom:30px;
+}
+
+.login-box input{
+    width:100%;
+    padding:15px;
+    margin:15px 0;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    box-sizing:border-box;
+}
+
+.login-box button{
+    width:100%;
+    padding:15px;
+    background:gold;
+    color:black;
+    border:none;
+    border-radius:8px;
+    font-size:20px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.login-box button:hover{
+    background:#ffdd33;
+}
+
+.login-box p{
+    margin-top:20px;
+}
+
+.login-box a{
+    color:gold;
+    text-decoration:none;
+}
